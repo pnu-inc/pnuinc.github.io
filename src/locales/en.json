@@ -1,0 +1,1622 @@
+{
+  "brand": "PNU INC Lab",
+  "nav": {
+    "home": "Home",
+    "research": "Research",
+    "publications": "Publications",
+    "professor": "Advisor",
+    "team": "Lab Members",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "PNU INC Laboratory",
+    "headline": "Sense with Physical AI\nConnect with Wireless AI",
+    "headlineEmphasis": [
+      "Physical AI",
+      "Wireless AI"
+    ],
+    "description": "In Physical AI, we apply VLA models to robotic manipulation and research model compression for edge deployment. In Wireless AI, our core topics are Wi-Fi CSI-based indoor localization and enhancing LoRa demodulation performance at the physical layer.",
+    "descriptionEmphasis": [
+      "Physical AI",
+      "Wireless AI",
+      "VLA",
+      "indoor localization",
+      "LoRa demodulation"
+    ],
+    "highlights": [
+      "Physical AI",
+      "Wireless AI",
+      "LPWAN",
+      "Wi-Fi"
+    ],
+    "stats": [
+      {
+        "value": "AIoT",
+        "label": "Intelligence Networking"
+      },
+      {
+        "value": "SON/KDN",
+        "label": "Autonomous Networks"
+      },
+      {
+        "value": "Smart Factory",
+        "label": "Industry 4.0 Systems"
+      }
+    ],
+    "primaryAction": "Explore research",
+    "secondaryAction": "Get in touch",
+    "cardLabel": "AIoT · SON/KDN · Smart Factory",
+    "panelTitle": "Research pillars",
+    "panelText": "We combine data-centric network design with smart IoT systems to deliver reliable, autonomous industrial connectivity."
+  },
+  "impact": {
+    "eyebrow": "Core strength",
+    "heading": "INC Lab research focus",
+    "cards": [
+      {
+        "title": "Wireless IoT Communication",
+        "description": "We study LPWA and resource allocation for diverse IoT service requirements."
+      },
+      {
+        "title": "SON / KDN",
+        "description": "We develop AI-powered autonomous network control for planning, optimization, and self-healing."
+      },
+      {
+        "title": "Smart Factory",
+        "description": "We build industrial IoT solutions for process monitoring, predictive maintenance, and object tracking."
+      }
+    ]
+  },
+  "research": {
+    "eyebrow": "Research Areas",
+    "heading": "Exploring physical intelligence and wireless AI",
+    "areas": [
+      {
+        "title": "Physical AI",
+        "description": "We study how AI perceives and responds to physical-world signals and environments. From computer vision and anomaly detection to signal-based localization, we build intelligent systems that operate in real-world spaces."
+      },
+      {
+        "title": "Wireless AI",
+        "description": "Rooted in wireless communication research, we integrate AI and ML into technologies like Wi-Fi and LoRa. We pursue smarter wireless environments through automated signal processing, resource allocation, and channel estimation."
+      }
+    ]
+  },
+  "labStats": {
+    "eyebrow": "Lab Overview",
+    "cards": [
+      {
+        "value": 2004,
+        "suffix": "~",
+        "label": "Founded",
+        "sub": "20+ years of research",
+        "icon": "calendar"
+      },
+      {
+        "value": 12,
+        "suffix": "",
+        "label": "Current Members",
+        "sub": "6 PhD · 5 MS · 1 Prof.",
+        "icon": "people"
+      },
+      {
+        "value": 41,
+        "suffix": "",
+        "label": "Alumni",
+        "sub": "10 PhD · 31 Master's",
+        "icon": "graduate"
+      },
+      {
+        "value": 75,
+        "suffix": "",
+        "label": "Publications",
+        "sub": "SCI · IEEE · KCI",
+        "icon": "paper"
+      },
+      {
+        "value": "20+",
+        "suffix": "",
+        "label": "Alumni Destinations",
+        "sub": "Industry · Academia · Research",
+        "icon": "building"
+      },
+      {
+        "value": 2,
+        "suffix": "",
+        "label": "Research Areas",
+        "sub": "Physical AI · Wireless AI",
+        "icon": "research"
+      }
+    ]
+  },
+  "experienceSection": {
+    "eyebrow": "INC in Real Life",
+    "heading": "Only possible at INC",
+    "items": [
+      {
+        "id": "conference",
+        "tag": "Conference",
+        "bgWord": "CONF.",
+        "title": "Attending Conferences Worldwide",
+        "description": "The lab supports attendance at domestic conferences and, based on your research progress, international ones too. Engage with the latest work from researchers worldwide, experience keynotes and discussions firsthand, and discover new ideas through real conversation — the true value of being there in person.",
+        "badge": "Domestic · Global"
+      },
+      {
+        "id": "overseas",
+        "tag": "Overseas",
+        "bgWord": "GLOBAL",
+        "title": "Overseas Research Lab Visit",
+        "description": "Through the advisor's international network, visit partner research institutions in Japan, Indonesia, and beyond for up to one month — immersing yourself in a global research environment.",
+        "badge": "Up to 1 month"
+      },
+      {
+        "id": "project",
+        "tag": "Project",
+        "bgWord": "PROJ",
+        "title": "Government & Industry R&D",
+        "description": "Participate in funded projects from MSIT and MND, as well as industry partnerships — applying research to solve real-world engineering problems.",
+        "badge": "Real-world"
+      },
+      {
+        "id": "tech",
+        "tag": "Skills",
+        "bgWord": "TECH",
+        "title": "Hands-On Technical Skills",
+        "description": "PyTorch deep learning, ROS robot control, GNU Radio & SDR signal processing, LoRa hardware — skills that hold up in both academic research and industry.",
+        "badge": "Hands-on"
+      },
+      {
+        "id": "paper",
+        "tag": "Publication",
+        "bgWord": "PAPER",
+        "title": "International Journal Co-authorship",
+        "description": "Impactful work earns you co-authorship on SCI-indexed journals and major domestic and international conferences. We target at least one publication before graduation.",
+        "badge": "SCI · SCIE"
+      }
+    ]
+  },
+  "publications": {
+    "eyebrow": "Publications",
+    "heading": "Recent Papers"
+  },
+  "professorPage": {
+    "eyebrow": "Advisor",
+    "title": "Introducing the lab professor",
+    "description": "Learn about the faculty leader guiding INC Lab research.",
+    "name": "Jong-Deok Kim",
+    "role": "Professor",
+    "department": "Department of Computer Science and Engineering",
+    "phone": "051-510-3519",
+    "email": "jdkim@pusan.ac.kr",
+    "photoAlt": "Professor Jong-Deok Kim",
+    "contactLabels": {
+      "department": "Department",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "historyHeading": "Education & Career",
+    "history": [
+      {
+        "period": "1994 ~ 1996",
+        "badge": "M.S.",
+        "institution": "Seoul National University",
+        "role": "M.S. in Electrical Engineering and Computer Science"
+      },
+      {
+        "period": "1996 ~ 2003",
+        "badge": "Ph.D.",
+        "institution": "Seoul National University",
+        "role": "Ph.D. in Computer Science and Engineering"
+      },
+      {
+        "period": "2003 ~ 2004",
+        "badge": "Industry",
+        "institution": "Telcoware",
+        "role": "Senior Manager"
+      },
+      {
+        "period": "2004 ~ present",
+        "badge": "Professor",
+        "institution": "Pusan National University",
+        "role": "Professor, Dept. of CSE"
+      }
+    ],
+    "projectSection": {
+      "eyebrow": "Research projects",
+      "heading": "Selected project portfolio"
+    },
+    "projectTableColumns": {
+      "title": "Project",
+      "period": "Period",
+      "summary": "Summary"
+    },
+    "projects": [
+      {
+        "title": "Development of Core AIoT Technologies and Expert Training for Digital Transformation",
+        "period": "2023.07-2029.12",
+        "summary": "Center Director"
+      },
+      {
+        "title": "Smart Yard Workforce Development Program",
+        "period": "2021.03-2026.02",
+        "summary": "Principal Investigator"
+      },
+      {
+        "title": "Next-Generation Low-Power Wide-Area Communication Technologies for Large-Scale IoT Applications",
+        "period": "2020.06-2025.05",
+        "summary": "Principal Investigator"
+      },
+      {
+        "title": "Smart Factory Enhancement via High-Reliability Wireless Communication, Lightweight Edge Computing, and Smart Monitoring & Management",
+        "period": "2020.11-2022.11",
+        "summary": "Principal Investigator"
+      },
+      {
+        "title": "IoT and Intelligent Information-Based Manufacturing IT Innovation and Talent Development in Southeast Korea",
+        "period": "2016.01-2023.12",
+        "summary": "Deputy Center Director"
+      }
+    ],
+    "outputSection": {
+      "eyebrow": "Representative work",
+      "heading": "Selected papers & patents",
+      "papersTitle": "Selected papers",
+      "patentsTitle": "Selected patents"
+    },
+    "papers": [
+      {
+        "title": "A Viewpoint-Centric Approach to Transition and Quality Delays in Multi-view Video Streaming",
+        "venue": "IEEE Transactions on Multimedia"
+      },
+      {
+        "title": "Chirp-Aware Self-Attention for Robust LoRa Preamble Detection under Ultra-Low SNR",
+        "venue": "IEEE Internet of Things Journal"
+      },
+      {
+        "title": "An Unsupervised Learning Framework With Efficient Weld Seam Extraction for Weld Defect Detection in Radiographic Images",
+        "venue": "IEEE Access"
+      },
+      {
+        "title": "Bilatangulation: A Novel Measurement Error Compensation Method for Wi-Fi Indoor Positioning with Two Anchors",
+        "venue": "IEEE Access"
+      },
+      {
+        "title": "Improvement of Multichannel LoRa Networks Based on Distributed Joint Queueing",
+        "venue": "IEEE Internet of Things Journal"
+      }
+    ],
+    "patents": [
+      {
+        "title": "Apparatus and Method for Learning Unstructured Data in Smart Factory Defect Detection Models",
+        "reference": ""
+      },
+      {
+        "title": "Apparatus and Method for AP Placement of Large-Scale Wireless LAN and Adaptive Wireless Resource Management",
+        "reference": ""
+      },
+      {
+        "title": "Network Coding Method and Apparatus for Reliable Communication in LoRa Communication Systems",
+        "reference": ""
+      }
+    ]
+  },
+  "teamPage": {
+    "eyebrow": "Lab Members",
+    "title": "INC Lab team members",
+    "description": "A diverse team of researchers working together on Wireless AI and Physical AI.",
+    "currentSection": {
+      "eyebrow": "Members",
+      "heading": "Current Members"
+    },
+    "members": [
+      {
+        "name": "Donghyun Kim",
+        "role": "Research Professor",
+        "degreeLevel": "professor",
+        "email": "dhkim1106@mobile.re.kr.com",
+        "description": "Multimedia, Wireless Communication, IoT"
+      },
+      {
+        "name": "Changhong Lee",
+        "role": "Integrated Master's/PhD",
+        "degreeLevel": "phd",
+        "email": "dlckdghd96@mobile.re.kr.com",
+        "description": "Wi-Fi Sensing, Passive Channel Charting"
+      },
+      {
+        "name": "Hoang Quoc Hong Nhat",
+        "role": "Doctoral Researcher",
+        "degreeLevel": "phd",
+        "email": "nhat.hqh@mobile.re.kr",
+        "description": "LPWAN, Adaptive Control for Wireless Networks"
+      },
+      {
+        "name": "Seungho Lee",
+        "role": "Integrated Master's/PhD",
+        "degreeLevel": "phd",
+        "email": "issyong@mobile.re.kr",
+        "description": "Image Processing, Anomaly Detection, Computer Vision"
+      },
+      {
+        "name": "Yunseob Kim",
+        "role": "Integrated Master's/PhD",
+        "degreeLevel": "phd",
+        "email": "giet278@mobile.re.kr",
+        "description": "LoRa Preamble Detection, LoRa Physical Layer, Computer Vision"
+      },
+      {
+        "name": "Sunghun Kim",
+        "role": "Doctoral Researcher",
+        "degreeLevel": "phd",
+        "email": "nomco215@mobile.re.kr",
+        "description": "Physical AI, Vision Language Model"
+      },
+      {
+        "name": "Cubahiro Roland",
+        "role": "Doctoral Researcher",
+        "degreeLevel": "phd",
+        "email": "roland.cubahiro@mobile.re.kr",
+        "description": "Hierarchical Reinforcement Learning, Industrial Logistics"
+      },
+      {
+        "name": "Daejun Lee",
+        "role": "Master's Researcher",
+        "degreeLevel": "masters",
+        "email": "djlee0403@mobile.re.kr",
+        "description": "Physical AI"
+      },
+      {
+        "name": "Seungjun Hyeon",
+        "role": "Master's Researcher",
+        "degreeLevel": "masters",
+        "email": "rlhsj25@mobile.re.kr",
+        "description": "Physical AI"
+      },
+      {
+        "name": "Sean",
+        "role": "Master's Researcher",
+        "degreeLevel": "masters",
+        "email": "sean246@mobile.re.kr",
+        "description": "LoRa, Signal Compression"
+      },
+      {
+        "name": "Yongheon Kwon",
+        "role": "Master's/PhD",
+        "degreeLevel": "masters",
+        "email": "dydgjs9920@mobile.re.kr",
+        "description": "Physical AI"
+      },
+      {
+        "name": "Yoonseong Joo",
+        "role": "Master's Researcher",
+        "degreeLevel": "masters",
+        "email": "freezino@mobile.re.kr",
+        "description": "Physical AI"
+      },
+      {
+        "name": "Hyun Seungmin",
+        "role": "Undergraduate Researcher",
+        "degreeLevel": "undergrad",
+        "type": "undergrad",
+        "email": "",
+        "description": "Physical AI"
+      },
+      {
+        "name": "Jeong Jiwoon",
+        "role": "Undergraduate Researcher",
+        "degreeLevel": "undergrad",
+        "type": "undergrad",
+        "email": "",
+        "description": "Physical AI"
+      }
+    ],
+    "alumniSection": {
+      "eyebrow": "Alumni",
+      "heading": "Where our alumni work",
+      "description": "INC Lab graduates are making an impact across industry and academia.",
+      "filterAll": "All",
+      "namesHeading": "Those who passed through INC Lab",
+      "degreeLabels": {
+        "masters": "M.S.",
+        "phd": "Ph.D."
+      },
+      "categoryGroups": [
+        {
+          "id": "bigtech",
+          "label": "Big Tech · IT",
+          "items": [
+            "Samsung Electronics",
+            "Samsung Heavy Industries",
+            "LG Electronics",
+            "LG Uplus",
+            "Hyundai Motor",
+            "Hyundai U&I",
+            "Hyundai Mobis",
+            "Hyundai Electronics",
+            "SK Telecom",
+            "Telcoware"
+          ]
+        },
+        {
+          "id": "defense",
+          "label": "Defense · Public",
+          "items": [
+            "LIG Nex1",
+            "Agency for Defense Development",
+            "Defense Agency for Technology and Quality",
+            "ABS (American Bureau of Shipping)"
+          ]
+        },
+        {
+          "id": "finance",
+          "label": "Finance",
+          "items": [
+            "BNK Busan Bank",
+            "BNK Kyongnam Bank"
+          ]
+        },
+        {
+          "id": "startup",
+          "label": "Startup",
+          "items": [
+            "Gamba Labs",
+            "Gwasaram",
+            "Seegene",
+            "White Playground"
+          ]
+        },
+        {
+          "id": "academia",
+          "label": "Academia & Research",
+          "items": [
+            "KAIST",
+            "Sogang University",
+            "Dong-eui University",
+            "Changshin University",
+            "Tokyo University of Science",
+            "Institut Teknologi Bandung"
+          ]
+        }
+      ],
+      "names": [
+        {
+          "name": "이현지",
+          "degree": "masters"
+        },
+        {
+          "name": "장수완",
+          "degree": "masters"
+        },
+        {
+          "name": "송병구",
+          "degree": "masters"
+        },
+        {
+          "name": "강동우",
+          "degree": "masters"
+        },
+        {
+          "name": "장효철",
+          "degree": "masters"
+        },
+        {
+          "name": "오두환",
+          "degree": "masters"
+        },
+        {
+          "name": "이성한",
+          "degree": "masters"
+        },
+        {
+          "name": "박현성",
+          "degree": "masters"
+        },
+        {
+          "name": "윤미경",
+          "degree": "masters"
+        },
+        {
+          "name": "한승호",
+          "degree": "masters"
+        },
+        {
+          "name": "양승철",
+          "degree": "masters"
+        },
+        {
+          "name": "이덕환",
+          "degree": "masters"
+        },
+        {
+          "name": "정재현",
+          "degree": "masters"
+        },
+        {
+          "name": "김태근",
+          "degree": "masters"
+        },
+        {
+          "name": "최현준",
+          "degree": "masters"
+        },
+        {
+          "name": "김세미",
+          "degree": "masters"
+        },
+        {
+          "name": "장정훈",
+          "degree": "masters"
+        },
+        {
+          "name": "정아정",
+          "degree": "masters"
+        },
+        {
+          "name": "서형윤",
+          "degree": "masters"
+        },
+        {
+          "name": "공종민",
+          "degree": "masters"
+        },
+        {
+          "name": "이성호",
+          "degree": "masters"
+        },
+        {
+          "name": "정종민",
+          "degree": "masters"
+        },
+        {
+          "name": "강인용",
+          "degree": "masters"
+        },
+        {
+          "name": "손성호",
+          "degree": "masters"
+        },
+        {
+          "name": "신재호",
+          "degree": "masters"
+        },
+        {
+          "name": "장재영",
+          "degree": "masters"
+        },
+        {
+          "name": "임준영",
+          "degree": "masters"
+        },
+        {
+          "name": "박정빈",
+          "degree": "masters"
+        },
+        {
+          "name": "이채석",
+          "degree": "phd"
+        },
+        {
+          "name": "변승규",
+          "degree": "phd"
+        },
+        {
+          "name": "류승룡",
+          "degree": "masters"
+        },
+        {
+          "name": "최국철",
+          "degree": "masters"
+        },
+        {
+          "name": "허준환",
+          "degree": "phd"
+        },
+        {
+          "name": "이재민",
+          "degree": "masters"
+        },
+        {
+          "name": "강명현",
+          "degree": "masters"
+        },
+        {
+          "name": "조아라",
+          "degree": "masters"
+        },
+        {
+          "name": "박재현",
+          "degree": "masters"
+        },
+        {
+          "name": "Yoshima Syach Putri",
+          "degree": "masters"
+        },
+        {
+          "name": "Konan Ruth Emmanuelle Victoire",
+          "degree": "phd"
+        }
+      ],
+      "companies": [
+        "Samsung Electronics",
+        "Samsung Heavy Industries",
+        "LG Electronics",
+        "LG Uplus",
+        "Hyundai Motor",
+        "Hyundai U&I",
+        "Hyundai Mobis",
+        "Hyundai Electronics",
+        "SK Telecom",
+        "Telcoware",
+        "BNK Busan Bank",
+        "BNK Kyongnam Bank",
+        "LIG Nex1",
+        "Agency for Defense Development",
+        "Defense Agency for Technology and Quality",
+        "ABS (American Bureau of Shipping)",
+        "Gamba Labs",
+        "Gwasaram",
+        "Seegene",
+        "White Playground"
+      ],
+      "universities": [
+        "KAIST",
+        "Sogang University",
+        "Dong-eui University",
+        "Changshin University",
+        "Tokyo University of Science",
+        "Institut Teknologi Bandung"
+      ]
+    }
+  },
+  "publicationsPage": {
+    "eyebrow": "Publications",
+    "title": "Research Publications",
+    "legend": {
+      "journal": "Journal",
+      "conference": "Conference"
+    },
+    "years": [
+      {
+        "year": "2026",
+        "papers": [
+          {
+            "title": "Chirp-Aware Self-Attention for Robust LoRa Preamble Detection under Ultralow SNR",
+            "authors": "Yun-Seob Kim, Seunggyu Byeon, Dong-Hyun Kim, Mikio Hasegawa, Jong-Deok Kim",
+            "venue": "IEEE Internet of Things Journal",
+            "url": "https://ieeexplore.ieee.org/document/11386915",
+            "highlights": [
+              "Yun-Seob Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Fuzzy C-Means Clustering-Driven Pooling for Robust and Generalizable Convolutional Neural Networks",
+            "authors": "Seunggyu Byeon, Jung-Hun Lee, Jong-Deok Kim",
+            "venue": "Computers, Materials, & Continua",
+            "url": "https://www.proquest.com/docview/3327143856?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "An Unsupervised Learning Framework With Efficient Weld Seam Extraction for Weld Defect Detection in Radiographic Images",
+            "authors": "Seung-Ho Lee, Doo-Jin Choi, Hyung-Jin Kim, Yong-Uk Kim, Jae-Min Lee, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "IEEE Access",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11408780",
+            "highlights": [
+              "Seung-Ho Lee",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Unified Spatial Analytical Framework for Confirmed Uplinks in Multi-Gateway LoRaWAN under Duty-Cycle Constraints",
+            "authors": "Hong-Nhat Hoang, Kien Nguyen, Hiroo Sekiya, Jong-Deok Kim",
+            "venue": "IEEE Open Journal of the Communications Society",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11408859",
+            "highlights": [
+              "Hong-Nhat Hoang",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "A Viewpoint-Centric Approach to Transition and Quality Delays in Multi-View Video Streaming",
+            "authors": "Dion Tanjung, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "IEEE Transactions on Multimedia",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11370230",
+            "highlights": [
+              "Dion Tanjung",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Impacts of Overlay Topologies and Peer Selection on Latencies in IoT Blockchain",
+            "authors": "Koki Koshikawa, Yue Su, Jong-Deok Kim, Won-Joo Hwang, Zhetao Li, Kien Nguyen, Hiroo Sekiya",
+            "venue": "IEEE Transactions on Network and Service Management",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11301849",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "papers": [
+          {
+            "title": "Adaptive Scheduling with Cell Borrowing for 6TiSCH Networks",
+            "authors": "Heejun Lee, Sang-Hwa Chung, Jong-Deok Kim",
+            "venue": "IEEE Sensors Journal",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10976376",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "An adaptive scheduling approach to enhance confirmed communication in LoRaWAN",
+            "authors": "Hong-Nhat Hoang, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12087173",
+            "highlights": [
+              "Hong-Nhat Hoang",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Spatiotemporal Attention Mechanism on ResNet-ConvGRU for Video-Based Violence Detection",
+            "authors": "Irma Amelia Dewi, Juhan Nur Amalina Firzanah, Kusprasapta Mutijarsa, Nugraha Priya Utama, Dion Tanjung, Jong-Deok Kim",
+            "venue": "ICICyTA 2025",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11362630",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Toward Efficient LoRa CRAN Deployments: IQ Data Compression and Gateway Collaboration",
+            "authors": "Sean, Dion Tanjung, Jong-Deok Kim",
+            "venue": "ICAICTA 2025",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11335121",
+            "highlights": [
+              "Sean",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Value-Gradient-Based Subgoal Discovery for Deep Reinforcement Learning",
+            "authors": "Roland Cubahiro, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "ICAICTA 2025",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11335118",
+            "highlights": [
+              "Roland Cubahiro",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Enhancing Lora Symbol Decoding at Extremely Low SNR Using Mask-Guided Neural Networks",
+            "authors": "Yun-Seob Kim, Jong-Deok Kim",
+            "venue": "ICMU 2025",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11219121",
+            "highlights": [
+              "Yun-Seob Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Reward Contrast Method for Reinforcement Learning Exploration",
+            "authors": "Roland Cubahiro, Jong-Deok Kim",
+            "venue": "ICMU 2025",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11219110",
+            "highlights": [
+              "Roland Cubahiro",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Wi-Fi Sensing for Stationary Object Shape Recognition",
+            "authors": "Chang-Hong Lee, Jong-Deok Kim",
+            "venue": "ICMU 2025",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11219126",
+            "highlights": [
+              "Chang-Hong Lee",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "A Study on the Correlation Between User Sentiments and QoE Parameters in Video Streaming Services",
+            "authors": "Fahmi Candra Permana, Fetty Fitriyanti Lubis, Armein Z.R. Langi, Aditya Pradana, Andriyan Bayu Suksmono, Kusprasapta Mutijarsa, Dion Tanjung, Yoanes Bandung, Jong-Deok Kim",
+            "venue": "IEEE Access",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11261522",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Cell Scheduling for Enhanced Bidirectional Throughput in TSCH Networks",
+            "authors": "Heejun Lee, Sang-Hwa Chung, Jong-Deok Kim",
+            "venue": "IEEE Access",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11237117",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "papers": [
+          {
+            "title": "Bidirectional Associative Memory-Based Lossy Compression Method for Efficient Communication in Low-Power and Lossy Networks",
+            "authors": "Seunggyu Byeon, Chang-Hong Lee, Yun-Seob Kim, Seung-Ho Lee, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12018343",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "LiTE4DCB: A Lightweight Throughput Estimation for Heterogeneous Dynamic Channel Bonding WLANs Based on Continuous-Time Markov Chain",
+            "authors": "Hong-Nhat Hoang, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "IEEE Access",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10379621",
+            "highlights": [
+              "Hong-Nhat Hoang",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Dual Perigee: Reducing Latency in IoT Blockchain Through Efficient Peer Selection",
+            "authors": "Koki Koshikawa, Jong-Deok Kim, Won-Joo Hwang, Kien Nguyen, Hiroo Sekiya",
+            "venue": "VTC2024-Spring",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10683039",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Bilatangulation: A Novel Measurement Error Compensation Method for Wi-Fi Indoor Positioning with Two Anchors",
+            "authors": "Chang-Hong Lee, Hyuckjin Choi, Yutaka Arakawa, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "IEEE Access",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10643056",
+            "highlights": [
+              "Chang-Hong Lee",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "papers": [
+          {
+            "title": "Graph Neural Network-based Federated Learning for Sum-rate Maximization in Small-cell Wireless Network",
+            "authors": "Nguyen Doan Hieu, Nguyen Xuan Tung, Vinh Do Quang, Won-Joo Hwang, Sang-Hwa Chung, Jong-Deok Kim",
+            "venue": "SOICT 2023",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3628797.3628826",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Design and Implementation of a Distributed Lightweight LoRaWAN System Based on K3s",
+            "authors": "Chang-Hong Lee, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11641844",
+            "highlights": [
+              "Chang-Hong Lee",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "A Pre-processing Method for Learning Data Using eXplainable Artificial Intelligence",
+            "authors": "Chang-Hong Lee, Jae-Min Lee, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "KIISE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11214564",
+            "highlights": [
+              "Chang-Hong Lee",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "An Extensive Evaluation of TCP Congestion Control in 10 Gbps Network",
+            "authors": "Shunji Aoyagi, Jong-Deok Kim, Kien Nguyen, Hiroo Sekiya",
+            "venue": "APNOMS 2023",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10258219",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Overlapping Channel Bonding Allocation for Dense WLANs under Imbalanced Traffic Demands",
+            "authors": "Hong-Nhat Hoang, Kien Nguyen, Hiroo Sekiya, Chang-Hong Lee, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "VTC 2023-Spring",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10199705",
+            "highlights": [
+              "Hong-Nhat Hoang",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "QoE Optimization in DASH-Based Multiview Video Streaming",
+            "authors": "Dion Tanjung, Jong-Deok Kim, Dong-Hyun Kim, Jewon Lee, Soonchoul Kim, Joon-Young Jung",
+            "venue": "IEEE Access",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10198243",
+            "highlights": [
+              "Dion Tanjung",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "papers": [
+          {
+            "title": "Analysis of Low Frequency Vibration in Construction Machine-Attached IOT System and Implementation of Stable Survey System Through Low Frequency Cancellation",
+            "authors": "Sung-Hun Kim, Seung-Ho Lee, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "KIISE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11149404",
+            "highlights": [
+              "Sung-Hun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "AoI based Data Freshness Improvement Possibility Analysis for Industrial Automation Systems",
+            "authors": "Guk-Cheol Choi, Jun-Hwan Huh, Yun-Seob Kim, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "KIISE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11136802",
+            "highlights": [
+              "Guk-Cheol Choi",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "A Generative Model for Traffic Demand with Heterogeneous and Spatiotemporal Characteristics in Massive Wi-Fi Systems",
+            "authors": "Jae-Min Lee, Jong-Deok Kim",
+            "venue": "Electronics",
+            "url": "https://www.mdpi.com/2079-9292/11/12/1848",
+            "highlights": [
+              "Jae-Min Lee",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Improvement of Multichannel LoRa Networks Based on Distributed Joint Queueing",
+            "authors": "Jun-Hwan Huh, Dion Tanjung, Dong-Hyun Kim, Seunggyu Byeon, Jong-Deok Kim",
+            "venue": "IEEE Internet of Things Journal",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9516700",
+            "highlights": [
+              "Jun-Hwan Huh",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Design and Implementation of Ultra-Long-Range LoRa Communication Module",
+            "authors": "Dong-Hyun Kim, Jun-Hwan Huh, Chang-Hong Lee, Kwang-Deok Kim, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11039185",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Dynamic Adaptive Agent with Critical Movement Detection for the Next Generation of Spatial Reuse",
+            "authors": "Yoshima Syach Putri, Dion Tanjung, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "ICUFN 2022",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9829663",
+            "highlights": [
+              "Yoshima Syach Putri",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "papers": [
+          {
+            "title": "Design and Implementation of a Real-Time Product Defect Detection System based on Artificial Intelligence in the Press Process",
+            "authors": "Dong-Hyun Kim, Jae-Min Lee, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10608044",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Design and Implementation of Real Time Device Monitoring and History Management System based on Multiple devices in Smart Factory",
+            "authors": "Dong-Hyun Kim, Jae-Min Lee, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525111",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Design and Implementation of Smart Manufacturing Execution System based on Web of Things for Steel Wire",
+            "authors": "Dong-Hyun Kim, Jun-Hwan Huh, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10525110",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2020",
+        "papers": [
+          {
+            "title": "Design and Implementation of Remote Device Management System based on LoRa Communication",
+            "authors": "Dong-Hyun Kim, Chang-Hong Lee, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10510988",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Opportunistic and On-Demand Network Coding-Based Solutions for LPWAN Forwarding",
+            "authors": "Dion Tanjung, Seunggyu Byeon, Jun-Hwan Huh, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "Sensors",
+            "url": "https://www.mdpi.com/1424-8220/20/20/5792",
+            "highlights": [
+              "Dion Tanjung",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Joint User Association and Power Allocation for Millimeter-Wave Ultra-Dense Networks",
+            "authors": "H.T. Nguyen, M. Murakami, K. Nguyen, K. Ishizu, F. Kojima, J.D. Kim, S.H. Chung, W.J. Hwang",
+            "venue": "Mobile Networks and Applications",
+            "url": "https://link.springer.com/article/10.1007/s11036-019-01286-8",
+            "highlights": [
+              "J.D. Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "OODC: An Opportunistic and On-Demand Forwarding Mechanism for LPWA Networks",
+            "authors": "Dion Tanjung, Seunggyu Byeon, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "ICOIN 2020",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9016475",
+            "highlights": [
+              "Dion Tanjung",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "PcLoRa: Point-coordinating LoRa with new Channel Structure for massive, reliable and low- latency IoT",
+            "authors": "Seunggyu Byeon, Jong-Deok Kim",
+            "venue": "ICOIN 2020",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9016433",
+            "highlights": [
+              "Seunggyu Byeon",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          }
+        ]
+      },
+      {
+        "year": "2019",
+        "papers": [
+          {
+            "title": "Multi-access edge computing empowered heterogeneous networks: A novel architecture and potential works",
+            "authors": "June-Woo Ryu, Quoc-Viet Pham, Huynh N.T. Luan, Won-Joo Hwang, Jong-Deok Kim, Jung-Tae Lee",
+            "venue": "Symmetry",
+            "url": "https://www.mdpi.com/2073-8994/11/7/842",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Unequal loss protection scheme using a quality prediction model in a Wi-Fi broadcasting system",
+            "authors": "Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "International Journal of Distributed Sensor Networks",
+            "url": "https://journals.sagepub.com/doi/full/10.1177/1550147719854247",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Energy Efficiency in QoS Constrained 60 GHz Millimeter-Wave Ultra-Dense Networks",
+            "authors": "Huy Thanh Nguyen, Homare Murakami, Kien Nguyen, Kentaro Ishizu, Fumihide Kojima, Jong-Deok Kim, Sang-Hwa Chung, Won-Joo Hwang",
+            "venue": "International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness 2019",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-14413-5_7#citeas",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "papers": [
+          {
+            "title": "Performance Analysis of LoRa(Long Range) according to the location in Indoor Concrete Compartment",
+            "authors": "Jun-Yeong Lim, Dong-Hyun Kim Jong-Deok Kim",
+            "venue": "KICS 2018",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07368821",
+            "highlights": [
+              "Jun-Yeong Lim",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "CLOF: Contribution-level-based opportunistic flooding for multihop wireless networks",
+            "authors": "Seunggyu Byeon, Sejin Park, Hyung-Yoon Seo, Jong-Deok Kim",
+            "venue": "International Journal of Distributed Sensor Networks",
+            "url": "https://journals.sagepub.com/doi/full/10.1177/1550147718778200#tab-contributors",
+            "highlights": [
+              "Seunggyu Byeon",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Link Performance Analysis of LoRa for Real-time Information Gathering in Maritime",
+            "authors": "Jae-Ho Shin, Jun-Yeong Lim, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "KIISE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07402986",
+            "highlights": [
+              "Jae-Ho Shin",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2017",
+        "papers": [
+          {
+            "title": "Performance Analysis of LoRa(Long Range) according to the Distance in indoor and outdoor space",
+            "authors": "Jun-Yeong Lim, Jae-Min Lee, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "KIISE Conference 2016",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07116073",
+            "highlights": [
+              "Jun-Yeong Lim",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Design and implementation of object tracking system based on LoRa",
+            "authors": "Dong-Hyun Kim, Jung-Bin Park, Jae-Ho Shin, Jong-Deok Kim",
+            "venue": "ICOIN 2017",
+            "url": "https://ieeexplore.ieee.org/abstract/document/7899535",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Design and implementation of low-level machine learning API and API server",
+            "authors": "Dong-Hyun Kim, Kyoung Seok Na, Jae-Min Lee, Jung-Bin Park, Jun-Young Lim, Jong-Deok Kim",
+            "venue": "ICOIN 2017",
+            "url": "https://ieeexplore.ieee.org/abstract/document/7899577",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "NEWSBED: The Internet of Things testbed platform",
+            "authors": "Jun-Hwan Huh, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "ICOIN 2017",
+            "url": "https://ieeexplore.ieee.org/abstract/document/7899542",
+            "highlights": [
+              "Jun-Hwan Huh",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Effective Bandwidth Measurement for Dynamic Adaptive Streaming over HTTP",
+            "authors": "Dong-Hyun Kim, Jong-Min Jung, Jun-Hwan Huh, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07101674",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Design and Implementation of Wi-Fi based Drone to Save People in Maritime",
+            "authors": "Dong-Hyun Kim, Jae-Ho Shin, Jong-Deok Kim",
+            "venue": "JKIICE",
+            "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07101675",
+            "highlights": [
+              "Dong-Hyun Kim",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2016",
+        "papers": [
+          {
+            "title": "A game theoretic model for dynamic configuration of large-scale intrusion detection signatures",
+            "authors": "Xaiver Jerald Punithan, Jong-Deok Kim, Dongseok Kim, Yoon-Ho Choi",
+            "venue": "Multimedia Tools and Applications",
+            "url": "https://link.springer.com/article/10.1007/s11042-015-2508-6",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Mould Design for Clutch Housing Parts using a Casting Simulation of High Pressure Die Casting",
+            "authors": "Seong-Il Jeong, Chul Kyu Jin, Hyung-Yoon Seo, Jong-Deok Kim, Cung Gil Kang",
+            "venue": "International Journal of Precision Engineering and Manufacturing",
+            "url": "https://link.springer.com/article/10.1007/s12541-016-0178-6",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "An Efficient Hierarchical Error Recovery Method for Hybrid Broadcast/Communication Networks",
+            "authors": "Hyung-Yoon Seo, Byung-Jun Bae, Jong-Deok Kim",
+            "venue": "IETE Journal of Research",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/03772063.2015.1026291",
+            "highlights": [
+              "Hyung-Yoon Seo",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2015",
+        "papers": [
+          {
+            "title": "Integral Steel Casting of Full Spade Rudder Trunk Carrier Housing for Supersized Container Vessels through Casting Process Engineering (Sekjin E&T)",
+            "authors": "Tae-Won Kim, Chul-Kyu Jin, Ill-Kab Jeong, Sang-Sub Lim, Jea-Chul Mun, Chung Gil Kang, Hyung-Yoon Seo, Jong-Deok Kim",
+            "venue": "Metals",
+            "url": "https://www.mdpi.com/2075-4701/5/2/706",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Wi-Fi-based modeling and hybrid routing scheme for delay-tolerant public bus network",
+            "authors": "Hyun-Sung Park, Jong-Deok Kim",
+            "venue": "Wireless Communications and Mobile Computing",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/wcm.2392",
+            "highlights": [
+              "Hyun-Sung Park",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Fabrication of Titanium Bipolar Plates by Rubber Forming Process and Evaluation Characteristics of TiN coated Titanium Bipolar Plates",
+            "authors": "Kyung-Hun Lee, Chul-Kyu Jin, Hyung-Yoon Seo, Jong-Deok Kim, Chung Gil Kang",
+            "venue": "Fuel Cells",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/fuce.201400091",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "A Hybrid Measurement Approach to Medium Occupied Time for Radio Resource Management in IEEE 802.11 Networks",
+            "authors": "Seung-Chur Yang, Jong-Deok Kim",
+            "venue": "International Journal of Distributed Sensor Networks",
+            "url": "https://journals.sagepub.com/doi/full/10.1155/2015/719671",
+            "highlights": [
+              "Seung-Chur Yang",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2014",
+        "papers": [
+          {
+            "title": "Study of Novel Spring Unit for Longstroke Semi-Auto Sliding Mechanism of Information Technology Applications",
+            "authors": "Yong-Phil Jeon, Hyung-Yoon Seo, Jong-Deok Kim, Chung Gil Kang",
+            "venue": "Journal of Mechanical Design",
+            "url": "https://asmedigitalcollection.asme.org/mechanicaldesign/article/136/7/074501/376064/Study-of-Novel-Spring-Unit-for-Longstroke-Semi",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Rheoforging of thin case for IT devices with optimal process parameters and new type die design",
+            "authors": "Yong-Phil Jeon, Amir Bolouri, Hyung-Yoon Seo, Jong-Deok Kim, Chung Gil Kang",
+            "venue": "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science",
+            "url": "https://journals.sagepub.com/doi/full/10.1177/0954406213495768",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "An Energy Efficient Active RFID Protocol to Avoid Overhearing Problem",
+            "authors": "Chae-Seok Lee, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "IEEE Sensors Journal",
+            "url": "https://ieeexplore.ieee.org/abstract/document/6584733",
+            "highlights": [
+              "Chae-Seok Lee",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2013",
+        "papers": [
+          {
+            "title": "An Efficient Transmission Scheme of MPEG2-TS over RTP for a Hybrid DMB System",
+            "authors": "Hyung-Yoon Seo, Byungjun Bae, Jong-Deok Kim",
+            "venue": "ETRI Journal",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.4218/etrij.13.0112.0124",
+            "highlights": [
+              "Hyung-Yoon Seo",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Experimental analysis of coating layer behavior of Al-Si-coated boron steel in a hot bending process for IT applications",
+            "authors": "Yong-Phil Jeon, Hyung-Yoon Seo, Jong-Deok Kim, Chung-Gil Kang",
+            "venue": "International Journal of Advanced Manufacturing Technology",
+            "url": "https://link.springer.com/article/10.1007/s00170-012-4602-5",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2012",
+        "papers": [
+          {
+            "title": "Development of Spring Unit to Reduce Drive Space and Thickness of IT Application and Its Experimental Verification",
+            "authors": "Yong-Phil Jeon, Hyung-Yoon Seo, Jong-Deok Kim, Chung-Gil Kang",
+            "venue": "International Journal of Precision Engineering and Manufacturing",
+            "url": "https://link.springer.com/article/10.1007/s12541-012-0025-3",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2011",
+        "papers": [
+          {
+            "title": "Enhanced Precision Time Synchronization for Wireless Sensor Networks",
+            "authors": "Hyuntae Cho, Jong-Deok Kim, Yunju Baek",
+            "venue": "Sensors",
+            "url": "https://www.mdpi.com/1424-8220/11/8/7625",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "An Efficient and Flexible Hybrid Conditional Access System for Advanced T-DMB",
+            "authors": "Byungjun Bae, Yun-Jeong Song, Soo-In Lee, Hyung-Yoon Seo, Jong-Deok Kim",
+            "venue": "ETRI Journal",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.4218/etrij.11.0210.0320",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Large-Scale Active RFID System Utilizing ZigBee Networks",
+            "authors": "Hyuntae Cho, Jong-Deok Kim, Yunju Baek",
+            "venue": "IEEE Transactions on Consumer Electronics",
+            "url": "https://ieeexplore.ieee.org/abstract/document/5955170",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2010",
+        "papers": [
+          {
+            "title": "Load balancing for a multi-channel multi-interface 2.4 GHz active RFID reader",
+            "authors": "Hyun-Sung Park, Dong-Hyun Kim, Jong-Deok Kim",
+            "venue": "IEICE Transactions on Communications",
+            "url": "https://globals.ieice.org/en_transactions/communications/10.1587/transcom.E93.B.1205/_p",
+            "highlights": [
+              "Hyun-Sung Park",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          },
+          {
+            "title": "Geometrical approach to multi-phase RFID filtering in dense environments",
+            "authors": "Hyun-Sung Park, Jong-Deok Kim",
+            "venue": "IET Communications",
+            "url": "https://digital-library.theiet.org/doi/abs/10.1049/iet-com.2009.0128",
+            "highlights": [
+              "Hyun-Sung Park",
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2007",
+        "papers": [
+          {
+            "title": "Design and implementation of DMBonIP gateway to provide Internet based DMB service",
+            "authors": "Jong-Deok Kim, Hyo-Cheol Jang, Joungil Yun, Byungjun Bae",
+            "venue": "IEEE Transactions on Consumer Electronics",
+            "url": "https://ieeexplore.ieee.org/abstract/document/4140909",
+            "highlights": [
+              "Jong-Deok Kim",
+              "Hyo-Cheol Jang"
+            ],
+            "type": "journal"
+          }
+        ]
+      },
+      {
+        "year": "2006",
+        "papers": [
+          {
+            "title": "Adaptive hybrid data broadcast for wireless converged networks",
+            "authors": "Jong-Deok Kim, Byungjun Bae",
+            "venue": "International Workshop on Multimedia Content Representation, Classification and Security",
+            "url": "https://link.springer.com/chapter/10.1007/11848035_88",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "QT-CBP: A new RFID tag anti-collision algorithm using collision bit positioning",
+            "authors": "Hyun-Ji Lee, Jong-Deok Kim",
+            "venue": "International Conference on Embedded and Ubiquitous Computing",
+            "url": "https://link.springer.com/chapter/10.1007/11807964_60",
+            "highlights": [
+              "Hyun-Ji Lee",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          },
+          {
+            "title": "Design and implementation of a high-speed RFID data filtering engine",
+            "authors": "Hyun-Sung Park, Jong-Deok Kim",
+            "venue": "International Conference on Embedded and Ubiquitous Computing",
+            "url": "https://link.springer.com/chapter/10.1007/11807964_43",
+            "highlights": [
+              "Hyun-Sung Park",
+              "Jong-Deok Kim"
+            ],
+            "type": "conference"
+          }
+        ]
+      },
+      {
+        "year": "2004",
+        "papers": [
+          {
+            "title": "Performance analysis and evaluation of IEEE 802.11e EDCF",
+            "authors": "Jong-Deok Kim, Chong-Kwon Kim",
+            "venue": "Wireless Communications and Mobile Computing",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/wcm.165",
+            "highlights": [
+              "Jong-Deok Kim"
+            ],
+            "type": "journal"
+          }
+        ]
+      }
+    ]
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Contact & Location",
+    "mapLabel": "How to get here",
+    "infoTitle": "Lab Information",
+    "items": [
+      {
+        "label": "Lab",
+        "value": "INC Lab (Intelligent Networking & Communications Lab)",
+        "type": "building"
+      },
+      {
+        "label": "Location",
+        "value": "Room 506, IT Building, Pusan National University",
+        "type": "location"
+      },
+      {
+        "label": "Address",
+        "value": "2 Busandaehak-ro 63beon-gil, Geumjeong-gu, Busan 46241, Republic of Korea",
+        "type": "address"
+      },
+      {
+        "label": "Phone",
+        "value": "051-510-3941",
+        "type": "phone"
+      },
+      {
+        "label": "Email",
+        "value": "mobile@mobile.re.kr",
+        "type": "email"
+      },
+      {
+        "label": "Website",
+        "value": "http://inc.pusan.ac.kr",
+        "type": "web"
+      }
+    ]
+  },
+  "footer": {
+    "line1": "PNU INC Lab, Department of Computer Science",
+    "line2": "© 2026 PNU INC Lab"
+  },
+  "toggleLabel": "KO"
+}
