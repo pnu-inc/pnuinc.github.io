@@ -8,10 +8,16 @@ const incLogo = new URL('../assets/inc_logo2.png', import.meta.url).href;
 
 const researchImages = [physicalAIPhoto, wirelessAIPhoto];
 
-const topicImages: Record<string, string> = {
-  'anomaly':  new URL('../assets/image_processing.png', import.meta.url).href,
-  'lora':     new URL('../assets/calora.png',           import.meta.url).href,
-  'wifi-loc': new URL('../assets/wifi-sensing.png',     import.meta.url).href,
+const topicImages: Record<string, string | string[]> = {
+  'vla':      [
+    new URL('../assets/card1.gif',   import.meta.url).href,
+    new URL('../assets/card1-2.gif', import.meta.url).href,
+  ],
+  'jetbot':   new URL('../assets/card2.png', import.meta.url).href,
+  'wifi-loc': new URL('../assets/card3.png', import.meta.url).href,
+  'anomaly':  new URL('../assets/card4.png', import.meta.url).href,
+  'lora':     new URL('../assets/card5.png', import.meta.url).href,
+  'rl':       new URL('../assets/card6.png', import.meta.url).href,
 };
 
 const CATEGORY_GRADIENTS: Record<string, string> = {
@@ -1300,11 +1306,13 @@ export default function App() {
       </main>
 
       {selectedTopic && (() => {
-        const modalImg = topicImages[selectedTopic.id];
+        const modalImgRaw = topicImages[selectedTopic.id];
+        const modalImgs = Array.isArray(modalImgRaw) ? modalImgRaw : modalImgRaw ? [modalImgRaw] : [];
+        const hasImage = modalImgs.length > 0;
         const modalBg = CATEGORY_GRADIENTS[selectedTopic.categoryType];
         return (
           <div className="topic-modal-backdrop" onClick={() => setSelectedTopic(null)}>
-            <div className={`topic-modal${modalImg ? ' has-image' : ''}`} onClick={(e) => e.stopPropagation()}>
+            <div className={`topic-modal${hasImage ? ' has-image' : ''}${modalImgs.length > 1 ? ' has-multi-image' : ''}`} onClick={(e) => e.stopPropagation()}>
               {/* 얇은 컬러 헤더 */}
               <div className="topic-modal-header" style={{ background: modalBg }}>
                 <span className="topic-badge">{selectedTopic.category}</span>
@@ -1314,14 +1322,28 @@ export default function App() {
               </div>
               {/* 본문: 데스크톱=좌우, 모바일=상하 */}
               <div className="topic-modal-content">
-                {modalImg && (
+                {hasImage && (
                   <div className="topic-modal-img-side">
-                    <img src={modalImg} alt={selectedTopic.title} className="topic-modal-img" />
+                    {modalImgs.map((src, i) => (
+                      <img key={i} src={src} alt={`${selectedTopic.title} ${i + 1}`} className="topic-modal-img" />
+                    ))}
                   </div>
                 )}
                 <div className="topic-modal-body">
                   <h3 className="topic-modal-title">{selectedTopic.title}</h3>
-                  <p className="topic-modal-detail">{selectedTopic.detail}</p>
+                  <p className="topic-modal-detail">
+                    {selectedTopic.detail.split('\n').map((line, i, arr) => {
+                      const isHeading = line.startsWith('#');
+                      return (
+                        <Fragment key={i}>
+                          {isHeading
+                            ? <strong className={`topic-detail-heading topic-detail-heading--${selectedTopic.categoryType}`}>{line.slice(1)}</strong>
+                            : line}
+                          {i < arr.length - 1 && !isHeading && '\n'}
+                        </Fragment>
+                      );
+                    })}
+                  </p>
                   <div className="topic-modal-keywords">
                     {selectedTopic.keywords.map((kw) => (
                       <span key={kw} className={`topic-keyword topic-keyword--${selectedTopic.categoryType}`}>{kw}</span>
