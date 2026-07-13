@@ -268,11 +268,11 @@ export default function App() {
   };
 
   const CAT_COLORS: [string, string][] = [
-    ['#7a1508', '#b53922'],   // bigtech: 딥레드 → 브랜드레드
-    ['#78350f', '#d97706'],   // defense: 딥앰버 → 골드
-    ['#1c1917', '#a8a29e'],   // finance: 다크웜 → 웜스톤
-    ['#431407', '#f97316'],   // startup: 다크브라운 → 비비드오렌지
-    ['#0c1a3e', '#1d64c8'],   // academia: 딥네이비 → 세련된파랑
+    ['#7a1508', '#b53922'],   // bigtech:  레드
+    ['#b53922', '#1c1917'],   // defense:  mid(1↔3) — 러스트/테라코타
+    ['#1c1917', '#a8a29e'],   // finance:  웜스톤
+    ['#14192a', '#6283b3'],   // startup:  mid(3↔5) — 스틸블루/슬레이트
+    ['#0c1a3e', '#1d64c8'],   // academia: 딥네이비/파랑
   ];
 
   const handleCatMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
