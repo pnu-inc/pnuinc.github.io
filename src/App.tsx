@@ -240,16 +240,20 @@ export default function App() {
   const statsRef = useRef<HTMLDivElement | null>(null);
   const statsTriggered = useRef(false);
   const { strings, toggleLanguage, language } = useLanguage();
-  const [activePage, setActivePage] = useState<'home' | 'publications' | 'professor' | 'team' | 'contact'>(() => {
-    const saved = sessionStorage.getItem('activePage');
-    const valid = ['home', 'publications', 'professor', 'team', 'contact'];
-    return (valid.includes(saved ?? '') ? saved : 'home') as 'home' | 'publications' | 'professor' | 'team' | 'contact';
+  type Page = 'home' | 'publications' | 'professor' | 'team' | 'contact';
+  const PAGES: Page[] = ['home', 'publications', 'professor', 'team', 'contact'];
+  const [activePage, setActivePage] = useState<Page>(() => {
+    const hash = window.location.hash.replace('#', '') as Page;
+    if (PAGES.includes(hash)) return hash;
+    const saved = sessionStorage.getItem('activePage') as Page;
+    return PAGES.includes(saved) ? saved : 'home';
   });
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const closeMobileMenu = () => setMobileMenuOpen(false);
 
   type Topic = typeof strings.research.topics[0];
   const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null);
+  const [recruitHover, setRecruitHover] = useState<'masters' | 'phd' | null>(null);
 
   useEffect(() => {
     if (!selectedTopic) return;
@@ -527,8 +531,14 @@ export default function App() {
     research: { page: 'home', section: 'research' },
   };
 
-  const navigateTo = (page: 'home' | 'publications' | 'professor' | 'team' | 'contact', sectionId?: string) => {
+  const pushPage = (page: Page) => {
     setActivePage(page);
+    sessionStorage.setItem('activePage', page);
+    history.pushState({ page }, '', page === 'home' ? location.pathname + location.search : `#${page}`);
+  };
+
+  const navigateTo = (page: Page, sectionId?: string) => {
+    pushPage(page);
     window.scrollTo({ top: 0 });
     if (sectionId) {
       setTimeout(() => {
@@ -539,7 +549,7 @@ export default function App() {
 
   const scrollToSection = (sectionId: string, event: MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
-    setActivePage('home');
+    pushPage('home');
     closeMobileMenu();
     setTimeout(() => {
       document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
@@ -555,6 +565,19 @@ export default function App() {
   useEffect(() => {
     sessionStorage.setItem('activePage', activePage);
   }, [activePage]);
+
+  useEffect(() => {
+    const onPop = (e: PopStateEvent) => {
+      const page = e.state?.page as string | undefined;
+      const hash = window.location.hash.replace('#', '');
+      const target = (PAGES.includes(page as Page) ? page : PAGES.includes(hash as Page) ? hash : 'home') as Page;
+      setActivePage(target);
+      sessionStorage.setItem('activePage', target);
+      window.scrollTo({ top: 0 });
+    };
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, []);
 
   useEffect(() => {
     const glow = glowRef.current;
@@ -666,7 +689,7 @@ export default function App() {
           type="button"
           className="brand"
           onClick={() => {
-            setActivePage('home');
+            pushPage('home');
             closeMobileMenu();
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
@@ -693,7 +716,7 @@ export default function App() {
               className={activePage === 'home' ? 'nav-active' : ''}
               onClick={(event) => {
                 event.preventDefault();
-                setActivePage('home');
+                pushPage('home');
                 closeMobileMenu();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
@@ -705,40 +728,48 @@ export default function App() {
             </a>
             <a
               href="#publications"
+              className={activePage === 'publications' ? 'nav-active' : ''}
               onClick={(event) => {
                 event.preventDefault();
-                setActivePage('publications');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                pushPage('publications');
+                closeMobileMenu();
+                window.scrollTo({ top: 0 });
               }}
             >
               {strings.nav.publications}
             </a>
             <a
               href="#professor"
+              className={activePage === 'professor' ? 'nav-active' : ''}
               onClick={(event) => {
                 event.preventDefault();
-                setActivePage('professor');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                pushPage('professor');
+                closeMobileMenu();
+                window.scrollTo({ top: 0 });
               }}
             >
               {strings.nav.professor}
             </a>
             <a
               href="#team"
+              className={activePage === 'team' ? 'nav-active' : ''}
               onClick={(event) => {
                 event.preventDefault();
-                setActivePage('team');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                pushPage('team');
+                closeMobileMenu();
+                window.scrollTo({ top: 0 });
               }}
             >
               {strings.nav.team}
             </a>
             <a
               href="#contact"
+              className={activePage === 'contact' ? 'nav-active' : ''}
               onClick={(event) => {
                 event.preventDefault();
-                setActivePage('contact');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                pushPage('contact');
+                closeMobileMenu();
+                window.scrollTo({ top: 0 });
               }}
             >
               {strings.nav.contact}
@@ -833,17 +864,32 @@ export default function App() {
                     성장할 팀원을 찾습니다
                   </p>
                   <div className="recruit-positions">
-                    <span className="recruit-position-tag recruit-position-tag--highlight">학부연구생</span>
-                    <span className="recruit-position-tag">석사과정</span>
-                    <span className="recruit-position-tag">박사과정</span>
+                    <span
+                      className={`recruit-position-tag${!recruitHover ? ' recruit-position-tag--highlight' : ''}`}
+                      onClick={() => setRecruitHover(null)}
+                    >
+                      학부연구생
+                    </span>
+                    <span
+                      className={`recruit-position-tag${recruitHover === 'masters' ? ' recruit-position-tag--highlight' : ''}`}
+                      onClick={() => setRecruitHover('masters')}
+                    >
+                      석사과정
+                    </span>
+                    <span
+                      className={`recruit-position-tag${recruitHover === 'phd' ? ' recruit-position-tag--highlight' : ''}`}
+                      onClick={() => setRecruitHover('phd')}
+                    >
+                      박사과정
+                    </span>
                   </div>
                   <a
-                    href="https://arise-ai.pusan.ac.kr/admission-v3-dark.html"
+                    href={recruitHover ? 'https://go.pusan.ac.kr/graduate/main/grad_main.asp' : 'https://arise-ai.pusan.ac.kr/admission-v3-dark.html'}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="recruit-cta"
                   >
-                    학석사 연계과정 자세히 보기 →
+                    {recruitHover ? '석박사 입학과정 자세히 보기 →' : '학석사 연계과정 자세히 보기 →'}
                   </a>
                 </div>
 

@@ -115,7 +115,7 @@
       },
       {
         "id": "anomaly",
-        "category": "Image Processing",
+        "category": "Anomaly Detection",
         "categoryType": "vision",
         "title": "Vision-Based Anomaly Detection",
         "description": "Automated weld defect and manufacturing anomaly detection using unsupervised learning and computer vision.",
@@ -194,14 +194,14 @@
   },
   "experienceSection": {
     "eyebrow": "INC in Real Life",
-    "heading": "Only possible at INC",
+    "heading": "Experiences at INC Lab",
     "items": [
       {
         "id": "conference",
         "tag": "Conference",
         "bgWord": "CONF.",
         "title": "Attending Conferences Worldwide",
-        "description": "The lab supports attendance at domestic conferences and, based on your research progress, international ones too. Engage with the latest work from researchers worldwide, experience keynotes and discussions firsthand, and discover new ideas through real conversation — the true value of being there in person.",
+        "description": "The lab supports attendance at domestic conferences and, based on your research progress, international ones too. On the ground at a conference, you engage directly with the latest work from researchers worldwide and sharpen your perspective through talks and live discussion. Presenting your own work, or simply talking with researchers on similar topics, lets you stress-test your ideas and explore unexpected directions — a kind of growth that papers alone cannot provide.",
         "badge": "Domestic · Global"
       },
       {
@@ -209,8 +209,8 @@
         "tag": "Overseas",
         "bgWord": "GLOBAL",
         "title": "Overseas Research Lab Visit",
-        "description": "Through the advisor's international network, visit partner research institutions in Japan, Indonesia, and beyond for up to one month — immersing yourself in a global research environment.",
-        "badge": "Up to 1 month"
+        "description": "Open to PhD researchers, this program leverages the advisor's international network to arrange visits of up to one month at partner institutions in Japan, Indonesia, and beyond. Working alongside local research teams on collaborative projects, you develop a first-hand sense of how research is done in a global environment.",
+        "badge": "PhD level"
       },
       {
         "id": "project",
@@ -232,8 +232,8 @@
         "id": "paper",
         "tag": "Publication",
         "bgWord": "PAPER",
-        "title": "International Journal Co-authorship",
-        "description": "Impactful work earns you co-authorship on SCI-indexed journals and major domestic and international conferences. We target at least one publication before graduation.",
+        "title": "The Research-to-Paper Process",
+        "description": "Participating in active lab projects takes you through the full research cycle — problem framing, experiments, analysis, and writing. Results that meet the standard open doors to conference presentations or SCI journal submissions, with first authorship as a real possibility.",
         "badge": "SCI · SCIE"
       }
     ]
@@ -359,7 +359,7 @@
     ],
     "patents": [
       {
-        "title": "Apparatus and Method for Learning Unstructured Data in Smart Factory Defect Detection Models",
+        "title": "APPARATUS AND METHOD FOR DETECTING DEFECT USING DEEP LEARNING-BASED SURFACE INSPECTION",
         "reference": ""
       },
       {
